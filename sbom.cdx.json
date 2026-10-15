@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:85c4f34c-0407-5fdc-8cd8-e185f7cc7e2d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:51:40Z",
+    "component": {
+      "type": "application",
+      "name": "YT_DLP",
+      "version": "51bab8a0116f",
+      "bom-ref": "pkg:generic/anticloud/YT_DLP@51bab8a0116f",
+      "purl": "pkg:generic/anticloud/YT_DLP@51bab8a0116f",
+      "licenses": [
+        {
+          "license": {
+            "id": "Unlicense"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "51bab8a0116f4d8004c315706d809782607d5847"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/yt-dlp/yt-dlp"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
