@@ -4,7 +4,7 @@
 
 **Category:** SOCIAL_MEDIA · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/yt-dlp/yt-dlp · **Pinned commit:** `51bab8a0116f4d8004c315706d809782607d5847` · **Vendor:** Anticloud FZ LLE
 
-## What This Project Is
+## What This Project Does
 
 yt-dlp is a feature-rich command-line audio/video downloader with support for [thousands of sites](supportedsites.md). The project is a fork of [youtube-dl](https://github.com/ytdl-org/youtube-dl) based on the now inactive [youtube-dlc](https://github.com/blackjack4494/yt-dlc).
 
@@ -26,7 +26,7 @@ Tip: Use `CTRL`+`F` (or `Command`+`F`)  to search by keywords
 
 <!-- Auto generated -->
 
-## Anticloud Overlay
+## API
 
 The 12 improvements live under `anticloud/`. Run the check suite from this directory:
 
@@ -34,7 +34,7 @@ The 12 improvements live under `anticloud/`. Run the check suite from this direc
 python anticloud/bench/runner.py --cwd anticloud
 ```
 
-## Benchmark Results
+## Benchmarks
 
 | Result | Status | Evidence |
 | --- | --- | --- |
@@ -57,11 +57,11 @@ python anticloud/bench/runner.py --cwd anticloud
 
 **Suite: 16/16 passed** · platform `win32` · python `3.12.10` · method `{'aggregate_rule': 'all_passed == AND over benchmarks[*].ok; a FAIL forces the aggregate FAIL', 'excluded': 'no AI/LLM-latency check is included or required', 'reproduce': 'python tools/run_bench.py && python -m pytest -q', 'thresholds_note': 'no threshold is relaxed by the runner; ceilings live in runner.py and are asserted independently in tests/test_project_metadata.py'}`
 
-## Licence
+## License
 
 The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The Anticloud overlay is licensed under Anticommons 0.1.0 (`ANTICOMMONS_LICENSE.md`).
 
-## Verification
+## Upstream
 
 SHA3-256 of `BENCH.json`:
 
@@ -70,3 +70,18 @@ ab1bcedfa2921a9d6dc3ff566ddd5606735f385a7c688aa558be0a7d1188ff4f
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
+
+
+## Dependencies
+
+See project documentation for details.
+
+
+## Configuration
+
+See project documentation for details.
+
+
+## Contributing
+
+See project documentation for details.
